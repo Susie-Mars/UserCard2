@@ -1,0 +1,73 @@
+.container {
+    background-color: white;
+    height: 325px;
+    width: 350px;
+    border: solid 5px rgb(155, 157, 157);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border {
+    background-color: rgb(44, 179, 202);
+    height: 75px;
+    width: 350px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.box {
+    height: 275px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 25px;
+    font-size: medium;
+
+}
+.user {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    left: 30px;
+    top: 50px;
+    border: 5px solid rgb(155, 157, 157);
+    border-radius: 50%;
+
+}
+.marker {
+    height: 15px;
+    width: 10px;
+    align-items: center;
+}
+.stats {
+    font-size: medium;
+    font-weight: bold;
+}
+.Master {
+    font-size: medium;
+    font-weight: bold;
+}
+.where {
+    display: flex;
+    font-size: medium;
+    gap: 15px;
+
+}
+.gear {
+    height: 15px;
+    width: 15px;
+}
+.edit {
+    font-size: medium;
+    display: flex;
+}
+.seattle {
+    font-size: medium;
+    margin: 0px;
+}
+.last {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+.name {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
